@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import java.io.*;
 import com.sun.speech.freetts.*;
+import java.awt.event.KeyEvent;
 /**
  *
  * @author Zulfa Fatah Akbar A
@@ -103,6 +104,11 @@ public class App_MorseCode extends javax.swing.JFrame {
         userText.setRows(5);
         userText.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Input your text/code here", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Tahoma", 0, 12), new java.awt.Color(0, 153, 255))); // NOI18N
         userText.setCaretColor(new java.awt.Color(255, 255, 255));
+        userText.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                userTextKeyTyped(evt);
+            }
+        });
         jScrollPane1.setViewportView(userText);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, 450, -1));
@@ -183,6 +189,7 @@ public class App_MorseCode extends javax.swing.JFrame {
             outputField.setText(morCo);
         }
         if (comboBox.getSelectedIndex() == 2){
+            
             String[] morseCode = {"/", "--..--", ".-.-.-", "..--..", "-----",
             ".----", "..---", "...---", "....-", ".....", "-....", "--...",
             "---..", "----.", ".-", "-...", "-.-.", "-..", ".", "..-.", "--.",
@@ -282,6 +289,18 @@ public class App_MorseCode extends javax.swing.JFrame {
         lf.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_backButtonActionPerformed
+    void filterhuruf(KeyEvent a){
+        if (comboBox.getSelectedIndex() == 2){
+            if(Character.isAlphabetic(a.getKeyChar())){
+                a.consume();
+                JOptionPane.showMessageDialog(null,"Only . and - are allowed");
+            }
+        }
+    }
+    private void userTextKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_userTextKeyTyped
+        // TODO add your handling code here:
+        filterhuruf(evt);
+    }//GEN-LAST:event_userTextKeyTyped
 
     /**
      * @param args the command line arguments
