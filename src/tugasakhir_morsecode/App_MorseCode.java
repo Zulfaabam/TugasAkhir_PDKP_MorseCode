@@ -53,7 +53,7 @@ public class App_MorseCode extends javax.swing.JFrame {
         convertButon.setBackground(new java.awt.Color(0, 0, 0));
         convertButon.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         convertButon.setForeground(new java.awt.Color(153, 255, 255));
-        convertButon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\Two arrows-resized.png")); // NOI18N
+        convertButon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/Two arrows-resized.png"))); // NOI18N
         convertButon.setText("Convert");
         convertButon.setToolTipText("");
         convertButon.setAlignmentX(0.5F);
@@ -68,7 +68,7 @@ public class App_MorseCode extends javax.swing.JFrame {
         getContentPane().add(convertButon, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 290, 110, 60));
 
         playButton.setBackground(new java.awt.Color(0, 0, 0));
-        playButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\sound-sign-icon-elements-web-neon-style-icons-simple-websites-design-mobile-app-info-graphics-dark-gradient-134638377 (2).jpg")); // NOI18N
+        playButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/sound-sign-icon-elements-web-neon-style-icons-simple-websites-design-mobile-app-info-graphics-dark-gradient-134638377 (2).jpg"))); // NOI18N
         playButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 255)));
         playButton.setContentAreaFilled(false);
         playButton.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +80,7 @@ public class App_MorseCode extends javax.swing.JFrame {
 
         clearButton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         clearButton.setForeground(new java.awt.Color(153, 0, 153));
-        clearButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\Trash icon (2)-resized.jpg")); // NOI18N
+        clearButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/Trash icon (2)-resized.jpg"))); // NOI18N
         clearButton.setAlignmentX(0.5F);
         clearButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 255, 255)));
         clearButton.setContentAreaFilled(false);
@@ -92,7 +92,6 @@ public class App_MorseCode extends javax.swing.JFrame {
         getContentPane().add(clearButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 490, 50, 50));
 
         comboBox.setFont(new java.awt.Font("Swis721 WGL4 BT", 0, 11)); // NOI18N
-        comboBox.setForeground(new java.awt.Color(0, 0, 0));
         comboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose Method", "Text to Morse", "Morse to Text" }));
         comboBox.setBorder(null);
         getContentPane().add(comboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 120, 110, -1));
@@ -145,7 +144,7 @@ public class App_MorseCode extends javax.swing.JFrame {
         });
         getContentPane().add(backButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 60, 20));
 
-        background.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\unnamed (3).jpg")); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/unnamed (3).jpg"))); // NOI18N
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 600));
 
         pack();

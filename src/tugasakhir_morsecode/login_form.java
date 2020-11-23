@@ -85,7 +85,7 @@ public class login_form extends javax.swing.JFrame {
         title1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 51), 2));
         getContentPane().add(title1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 230, 30));
 
-        banckground.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\2018-09-16_071129 (2).png")); // NOI18N
+        banckground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/2018-09-16_071129 (2).png"))); // NOI18N
         getContentPane().add(banckground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 400));
 
         pack();

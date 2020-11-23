@@ -40,7 +40,7 @@
           <Color blue="ff" green="ff" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Zulfa Fatah Akbar A\Pictures\Ingredients\Two arrows-resized.png"/>
+          <Image iconType="3" name="/gambar/Two arrows-resized.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Convert"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -70,7 +70,7 @@
           <Color blue="0" green="0" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Zulfa Fatah Akbar A\Pictures\Ingredients\sound-sign-icon-elements-web-neon-style-icons-simple-websites-design-mobile-app-info-graphics-dark-gradient-134638377 (2).jpg"/>
+          <Image iconType="3" name="/gambar/sound-sign-icon-elements-web-neon-style-icons-simple-websites-design-mobile-app-info-graphics-dark-gradient-134638377 (2).jpg"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -99,7 +99,7 @@
           <Color blue="99" green="0" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Zulfa Fatah Akbar A\Pictures\Ingredients\Trash icon (2)-resized.jpg"/>
+          <Image iconType="3" name="/gambar/Trash icon (2)-resized.jpg"/>
         </Property>
         <Property name="alignmentX" type="float" value="0.5"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -279,7 +279,7 @@
     <Component class="javax.swing.JLabel" name="background">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Zulfa Fatah Akbar A\Pictures\Ingredients\unnamed (3).jpg"/>
+          <Image iconType="3" name="/gambar/unnamed (3).jpg"/>
         </Property>
       </Properties>
       <Constraints>
